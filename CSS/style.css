@@ -1,0 +1,107 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: grey;
+    height: auto;
+}
+
+.fond
+{
+    border-radius: 5%;
+    height: 80vh;
+    width: 50%;
+    background-image: url("../img/img api.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.fond:hover
+{
+    background-color: #484747;
+}
+
+.texteRechercheVille
+{
+    height: 80%;
+    width: 100%;
+    user-select: none;
+}
+
+.inputSearch
+{
+    background-color: rgba(128, 128, 128, 0.47);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.btnSearch
+{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: .5s;
+}
+
+.btnSearch:hover
+{
+    background-color: white;
+}
+
+/*######## SVG INSERTION ##########*/
+.icon
+{
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+}
+
+.cloud
+{
+    background-image: url("../img/cloud.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cloud-Rain
+{
+    background-image: url("../img/cloud-rain.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cloud-Rain-Thunder
+{
+    background-image: url("../img/cloud-rain-thunder.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sun
+{
+    background-image: url("../img/sun.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.thermemeter
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.thermemeterSnow{background-image: url("../img/thermometer-snow.svg")}
+.thermemeterLow{background-image: url("../img/thermometer-low.svg")}
+.thermemeterHalf{background-image: url("../img/thermometerMid.svg")}
+.thermemeterHight{background-image: url("../img/thermometerTOP.svg")}
+.thermemeterSun{background-image: url("../img/thermometer-sun.svg")}
